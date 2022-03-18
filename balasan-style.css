@@ -1,0 +1,61 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),
+    url(https://images.pexels.com/photos/11077607/pexels-photo-11077607.jpeg?cs=srgb&dl=pexels-mathias-pr-reding-11077607.jpg&fm=jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.panel-logo{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.balasanku{
+    width: 720px;
+    height: 350px;
+    position: center;
+    transform: translate(30%,25%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.box-1{
+    width: 220px;
+    color:cornsilk;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    background-color: rgb(160, 6, 6);
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    position: relative;
+}
+
+.bottom-panel kembali{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 11px;
+    text-align: center;
+    position: center;
+}
+.kembali a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color:rgb(0, 86, 161);
+}
+
+.kembali:hoover{
+    background-color: rgb(160, 6, 6);
+}

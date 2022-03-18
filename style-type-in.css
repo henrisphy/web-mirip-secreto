@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-look{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg-film.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.brand-name{
+    width: 1200px;
+    height: 90px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: rgb(44, 158, 252);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.pengenalan-web{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.pengenalan-web .penjelasan{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.pengenalan-web h2{
+    font-family: 'Times New Roman';
+    padding-left: 20px;
+    font-size: 30px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.pengenalan-web .cn{
+    width: 180px;
+    height: 40px;
+    background: #00a2ff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    font-weight: bold;
+    
+}
+
+.pengenalan-web .cn a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.pengenalan-web span{
+    color: #00a2ff;
+    font-size: 30px
+}
+
+.isian{
+    width: 500px;
+    height: 350px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -50px;
+    left: 550px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    font-family: 'Times New Roman';
+}
+
+.isian h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #00a2ff;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    position: relative;
+    left: 27%;
+
+}
+
+.isian input{
+    width: 500px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #00a2ff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.isian input:focus{
+    outline: none;
+}
+
+button2::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.button2{
+    width: 240px;
+    height: 40px;
+    background: #00a2ff;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+    position: relative;
+    left: 27%;
+}
+.button2:hover{
+    background: #fff;
+    color: #00a2ff;
+}
+.button2 a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.isian .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.isian .link a{
+    text-decoration: none;
+    color: #00a2ff;
+}
+.my-socials{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top:40px;
+    left: 31%;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #00a2ff;
+}
