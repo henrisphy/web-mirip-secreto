@@ -199,4 +199,11 @@ button2::placeholder{
     color: #00a2ff;
 }
 
+@media only screen and (max-width:700px){
+    .isian{
+    flex-direction: column-reverse;
+    margin: 50px 0;
+    transform: translateX(75px);
+    }
+}
 
