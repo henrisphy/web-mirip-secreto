@@ -100,6 +100,7 @@
     border-radius: 10px;
     padding: 25px;
     font-family: 'Times New Roman';
+    z-index: -1;
 }
 
 .isian h2{
@@ -202,5 +203,6 @@ button2::placeholder{
     .isian{
     flex-direction: column-reverse;
     margin: 50px 0;
+    transform: translateX(75px);
     }
 }
