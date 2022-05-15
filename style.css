@@ -94,6 +94,8 @@
     height: 350px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: sticky;
+    top: -50px;
+    left: 550px;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
@@ -110,7 +112,7 @@
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
-    position: sticky;
+    position: relative;
     left: 27%;
 
 }
@@ -129,7 +131,6 @@
     margin-top: 30px;
     font-family: sans-serif;
     text-align: center;
-    position: sticky;
 }
 
 .isian input:focus{
@@ -152,7 +153,7 @@ button2::placeholder{
     cursor: pointer;
     color: #fff;
     transition: 0.4s ease;
-    position: sticky;
+    position: relative;
     left: 27%;
 }
 .button2:hover{
@@ -169,7 +170,6 @@ button2::placeholder{
     font-size: 17px;
     padding-top: 20px;
     text-align: center;
-    position: sticky;
 }
 .isian .link a{
     text-decoration: none;
@@ -179,7 +179,6 @@ button2::placeholder{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
-    position: sticky;
 }
 .icons a{
     text-decoration: none;
@@ -187,7 +186,6 @@ button2::placeholder{
     position: relative;
     top:40px;
     left: 31%;
-    position: sticky;
 }
 .icons ion-icon{
     color: #fff;
