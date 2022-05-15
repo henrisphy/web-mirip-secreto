@@ -112,7 +112,7 @@
     border-radius: 10px;
     margin: 2px;
     padding: 8px;
-    position: absolute;
+    position: relative;
     left: 27%;
 
 }
