@@ -13,13 +13,13 @@
 }
 
 .brand-name{
-    width: 1200px;
+    width: 120px;
     height: 90px;
     margin: auto;
 }
 
 .icon{
-    width: 200px;
+    width: 120px;
     float: left;
     height: 70px;
 }
@@ -36,7 +36,7 @@
 }
 
 .pengenalan-web{
-    width: 1200px;
+    width: 720px;
     height: auto;
     margin: auto;
     color: #fff;
