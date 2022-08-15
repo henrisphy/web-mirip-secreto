@@ -20,7 +20,7 @@
 
 .icon{
     width: 120px;
-    float: left;
+    float: right;
     height: 70px;
 }
 
@@ -29,7 +29,7 @@
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
-    float: left;
+    float: right;
     padding-top: 10px;
     margin-top: 5px
     transition: 0.4s ease;
@@ -39,7 +39,7 @@
     width: 720px;
     height: auto;
     margin: auto;
-    color: #fff;
+    color: #ffffff;
     position: relative;
 }
 
@@ -92,8 +92,8 @@
 }
 
 .isian{
-    width: 500px;
-    height: 350px;
+    width: 300px;
+    height: 200px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
     top: 375px;
@@ -105,7 +105,7 @@
 }
 
 .isian h2{
-    width: 220px;
+    width: 180px;
     font-family: sans-serif;
     text-align: center;
     color: #00a2ff;
@@ -120,7 +120,7 @@
 }
 
 .isian input{
-    width: 500px;
+    width: 280px;
     height: 35px;
     background: transparent;
     border-bottom: 1px solid #00a2ff;
