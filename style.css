@@ -4,11 +4,12 @@
 }
 
 .main-look{
-    width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg-film.jpg);
-    background-position: center;
+    width: 720px;
+    height: 1280px;
     background-size: cover;
-    height: 100vh;
+    background-position:center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(bg-film.jpg);
+  
 }
 
 .brand-name{
@@ -31,6 +32,7 @@
     float: left;
     padding-top: 10px;
     margin-top: 5px
+    transition: 0.4s ease;
 }
 
 .pengenalan-web{
@@ -94,14 +96,13 @@
     height: 350px;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     position: absolute;
-    top: -50px;
-    left: 550px;
+    top: 375px;
+    left: 50px;
     transform: translate(0%,-5%);
     border-radius: 10px;
     padding: 25px;
     font-family: 'Times New Roman';
 }
-
 
 .isian h2{
     width: 220px;
@@ -199,11 +200,6 @@ button2::placeholder{
     color: #00a2ff;
 }
 
-@media only screen and (max-width:700px){
-    .isian{
-    flex-direction: column-reverse;
-    margin: 50px 0;
-    transform: translateX(75px);
-    }
+.logo:hoover{
+    color: #ffffff;
 }
-
